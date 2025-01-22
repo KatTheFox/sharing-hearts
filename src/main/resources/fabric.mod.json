@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "sharing-hearts",
+  "version": "${version}",
+  "name": "Sharing Hearts",
+  "description": "Changes the function of Heartbound Chests to allow team members to access them",
+  "authors": ["KatTheFox"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/sharing-hearts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["katthefox.sharinghearts.SharingHearts"]
+  },
+  "mixins": ["sharing-hearts.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "spectrum": "*"
+  }
+}

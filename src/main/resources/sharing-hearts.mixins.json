@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "katthefox.sharinghearts.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["OwnershipShareMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
